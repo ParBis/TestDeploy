@@ -9,7 +9,7 @@ import { StorageServiceModule } from 'angular-webstorage-service';
 import { EditComponent } from './edit/edit.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '/', component: HomeComponent},
   //{path: 'about/:city', component: AboutComponent}
   {path: 'about', component: AboutComponent},
   {path: 'edit', component: EditComponent}
